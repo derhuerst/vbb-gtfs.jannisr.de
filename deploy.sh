@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rsync -ravz --exclude '.*' --exclude deploy.sh . uberspace:~/html/vbb-gtfs.jannisr.de/
+rsync -ravz --exclude '.*' --exclude deploy.sh . root@cedar.jannisr.de:/var/www/vbb-gtfs.jannisr.de/

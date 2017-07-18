@@ -1,0 +1,60 @@
+{
+	"name": "vbb-gtfs",
+	"title": "GTFS data for Berlin & Brandenburg public transport.",
+	"description": "This repo contains open GTFS data for Berlin & Brandenburg public transport, published as CC-BY by VBB.",
+	"version": "2017-07-17",
+	"keywords": ["vbb", "berlin", "brandenburg", "public transport", "lines", "open data", "json", "ndjson", "gtfs"],
+	"licenses": [{
+		"url": "https://creativecommons.org/licenses/by/3.0/",
+		"name": "Create Commons Attribution 3.0",
+		"version": "3.0",
+		"id": "CC-BY-3.0"
+	}],
+	"sources": [{
+		"url": "https://daten.berlin.de/datensaetze/vbb-fahrplandaten-juli-2017-bis-dezember-2017",
+		"name": "Verkehrsverbund Berlin Brandenburg"
+	}],
+	"resources": [
+		{
+			"path": "agency.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/agency.txt"
+		},
+		{
+			"path": "calendar.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/calendar.txt"
+		},
+		{
+			"path": "calendar_dates.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/calendar_dates.txt"
+		},
+		{
+			"path": "routes.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/routes.txt"
+		},
+		{
+			"path": "shapes.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/shapes.txt"
+		},
+		{
+			"path": "stop_times.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/stop_times.txt"
+		},
+		{
+			"path": "stops.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/stops.txt"
+		},
+		{
+			"path": "transfers.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/transfers.txt"
+		},
+		{
+			"path": "trips.txt",
+			"url": "https://vbb-gtfs.jannisr.de/2017-07-17/trips.txt"
+		}
+	],
+	"publishers": [{
+		"name": "Verkehrsverbund Berlin Brandenburg",
+		"email": "info@vbb.de",
+		"web": "http://www.vbb.de/"
+	}]
+}
