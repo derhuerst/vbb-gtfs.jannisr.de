@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rsync -ravz --exclude '.*' --exclude deploy.sh . root@cedar.jannisr.de:/var/www/vbb-gtfs.jannisr.de/
+rsync -rvz --exclude '.*' --exclude deploy.sh . root@elm.jannisr.de:/var/www/vbb-gtfs.jannisr.de/
