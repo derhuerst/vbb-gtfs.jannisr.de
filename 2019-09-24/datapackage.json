@@ -16,44 +16,70 @@
 	}],
 	"resources": [
 		{
-			"path": "agency.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/agency.txt"
+			"path": "agency.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/agency.csv"
 		},
 		{
-			"path": "calendar.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/calendar.txt"
+			"path": "calendar.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/calendar.csv"
 		},
 		{
-			"path": "calendar_dates.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/calendar_dates.txt"
+			"path": "calendar_dates.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/calendar_dates.csv"
 		},
 		{
-			"path": "routes.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/routes.txt"
+			"path": "frequencies.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/frequencies.csv"
 		},
 		{
-			"path": "service_alerts.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/service_alerts.txt"
+			"path": "routes.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/routes.csv"
 		},
 		{
-			"path": "shapes.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/shapes.txt"
+			"path": "service_alerts.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/service_alerts.csv"
 		},
 		{
-			"path": "stop_times.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/stop_times.txt"
+			"path": "shapes.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/shapes.csv"
 		},
 		{
-			"path": "stops.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/stops.txt"
+			"path": "stop_times.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/stop_times.csv"
 		},
 		{
-			"path": "transfers.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/transfers.txt"
+			"path": "stops.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/stops.csv"
 		},
 		{
-			"path": "trips.txt",
-			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/trips.txt"
+			"path": "transfers.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/transfers.csv"
+		},
+		{
+			"path": "trips.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2019-09-24/trips.csv"
 		}
 	],
 	"publishers": [{
