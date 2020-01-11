@@ -1,0 +1,17 @@
+{
+	"feeds": [{
+		"spec": "gtfs",
+		"id": "todo-vbb-onestop-id",
+		"url": "https://vbb-gtfs.jannisr.de/latest/",
+		"languages": ["de-DE"],
+		"license": {
+			"spdx_identifier": "CC-BY-3.0",
+			"url": "https://creativecommons.org/licenses/by/3.0/",
+			"use_without_attribution": "no",
+			"create_derived_product": "yes",
+			"redistribute": "unknown",
+			"attribution_text": "VBB Verkehrsverbund Berlin-Brandenburg GmbH",
+		}
+	}],
+	"license_spdx_identifier": "CC0-1.0"
+}
