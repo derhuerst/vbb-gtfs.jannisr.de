@@ -1,0 +1,90 @@
+{
+	"name": "vbb-gtfs",
+	"title": "GTFS data for Berlin & Brandenburg public transport.",
+	"description": "This repo contains open GTFS data for Berlin & Brandenburg public transport, published as CC-BY by VBB.",
+	"version": "2020-02-26",
+	"keywords": ["vbb", "berlin", "brandenburg", "public transport", "lines", "open data", "json", "ndjson", "gtfs"],
+	"licenses": [{
+		"url": "https://creativecommons.org/licenses/by/3.0/",
+		"name": "Create Commons Attribution 3.0",
+		"version": "3.0",
+		"id": "CC-BY-3.0"
+	}],
+	"sources": [{
+		"url": "https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs",
+		"name": "Verkehrsverbund Berlin Brandenburg"
+	}],
+	"resources": [
+		{
+			"path": "agency.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/agency.csv"
+		},
+		{
+			"path": "calendar.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/calendar.csv"
+		},
+		{
+			"path": "calendar_dates.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/calendar_dates.csv"
+		},
+		{
+			"path": "frequencies.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/frequencies.csv"
+		},
+		{
+			"path": "pathways.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/pathways.csv"
+		},
+		{
+			"path": "routes.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/routes.csv"
+		},
+		{
+			"path": "shapes.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/shapes.csv"
+		},
+		{
+			"path": "stop_times.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/stop_times.csv"
+		},
+		{
+			"path": "stops.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/stops.csv"
+		},
+		{
+			"path": "transfers.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/transfers.csv"
+		},
+		{
+			"path": "trips.csv",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"url": "https://vbb-gtfs.jannisr.de/2020-02-26/trips.csv"
+		}
+	],
+	"publishers": [{
+		"name": "Verkehrsverbund Berlin Brandenburg",
+		"email": "info@vbb.de",
+		"web": "https://www.vbb.de/"
+	}]
+}
